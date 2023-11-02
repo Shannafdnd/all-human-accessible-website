@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="../../styles/navbar.css">
+    <link rel="stylesheet" type="text/css" href="../../styles/member.css">
+    <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet">
+    <script src="../../scripts/member.js" defer></script>
+    <title>OBA Login</title>
+</head>
+<body>
+    <main>
+        <h1>Profiel van <span id="name"></span></h1>
+        <h2>Meldingen</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>Type melding</th>
+                    <th>Boek</th>
+                    <th>Inleverdatum</th>
+                    <th>Dagen</th>
+                    <th>Verlengen</th>
+                    <th>Boete</th>
+                </tr>
+            </thead>
+            <tbody id="notifications">
+                <template id="notification-template">
+                    <tr>
+                        <td class="notification-type"></td>
+                        <td class="notification-book"></td>
+                        <td class="notification-date"></td>
+                        <td class="notification-days"></td>
+                        <td class="notification-extend">
+                            <button>Verlengen</button>
+                        </td>
+                        <td class="notification-fine">
+                    </tr>
+                </template>
+            </tbody>
+        </table>
+        <img id="book-img" hidden>
+    </main>
+</body>
+</html>

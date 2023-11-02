@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="../styles/family.css">
+    <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet">
+    <script src="../scripts/family.js" defer></script>
+    <title>OBA Login</title>
+</head>
+<body>
+    <main>
+        <h1>Welkom familie <span id="family-name"></span></h1>
+        <div id="current-user-profile">
+            <img>
+        </div>
+        <ul id="members">
+            <template id="member-template">
+                <li class="member">
+                    <a class="member-view">
+                        <img class="member-profile-picture">
+                        <p class="member-name"></p>
+                    </a>
+                </li>
+            </template>
+        </ul>
+    </main>
+</body>
+</html>

@@ -1,0 +1,179 @@
+[
+    {
+        "firstName": "Fatima",
+        "lastName": "El Amrani",
+        "accountType": "beheerder",
+        "currentlyBorrowed": [
+            {
+                "name": "The Art City",
+                "image": "book-1.png",
+                "turnInDate": "01-11-2023"
+            },
+            {
+                "name": "Give",
+                "image": "book-2.png",
+                "turnInDate": "26-10-2023"
+            },
+            {
+                "name": "Your Name",
+                "image": "book-3.png",
+                "turnInDate": "02-11-2023"
+            },
+            {
+                "name": "Your title goes here",
+                "image": "book-4.png",
+                "turnInDate": "06-11-2023"
+            }
+        ],
+        "favorites" : [
+            {
+                "name": "The Art City",
+                "image": "book-1.png"
+            },
+            {
+                "name": "Give",
+                "image": "book-2.png"
+            },
+            {
+                "name": "Your Name",
+                "image": "book-3.png"
+            },
+            {
+                "name": "Your title goes here",
+                "image": "book-4.png"
+            },
+            {
+                "name": "Music",
+                "image": "book-5.png"
+            },
+            {
+                "name": "Sample",
+                "image": "book-6.png"
+            },
+            {
+                "name": "Lighthouse",
+                "image": "book-7.png"
+            },
+            {
+                "name": "Black History Month",
+                "image": "book-8.png"
+            },
+            {
+                "name": "Love",
+                "image": "book-9.png"
+            },
+            {
+                "name": "Retro",
+                "image": "book-10.png"
+            }
+        ]
+    },
+    {
+        "firstName": "Peter",
+        "lastName": "de Vries",
+        "accountType": "lid",
+        "currentlyBorrowed": [
+            {
+                "name": "The Art City",
+                "image": "book-1.png",
+                "turnInDate": "01-11-2023"
+            },
+            {
+                "name": "Give",
+                "image": "book-2.png",
+                "turnInDate": "26-10-2023"
+            },
+            {
+                "name": "Your Name",
+                "image": "book-3.png",
+                "turnInDate": "02-11-2023"
+            },
+            {
+                "name": "Your title goes here",
+                "image": "book-4.png",
+                "turnInDate": "06-11-2023"
+            }
+        ]
+    },
+    {
+        "firstName": "Sara",
+        "lastName": "El Amrani-de Vries",
+        "accountType": "lid",
+        "currentlyBorrowed": [
+            {
+                "name": "The Art City",
+                "image": "book-1.png",
+                "turnInDate": "01-11-2023"
+            },
+            {
+                "name": "Give",
+                "image": "book-2.png",
+                "turnInDate": "26-10-2023"
+            },
+            {
+                "name": "Your Name",
+                "image": "book-3.png",
+                "turnInDate": "02-11-2023"
+            },
+            {
+                "name": "Your title goes here",
+                "image": "book-4.png",
+                "turnInDate": "06-11-2023"
+            }
+        ]
+    },
+    {
+        "firstName": "Sami",
+        "lastName": "El Amrani-de Vries",
+        "accountType": "lid",
+        "currentlyBorrowed": [
+            {
+                "name": "The Art City",
+                "image": "book-1.png",
+                "turnInDate": "01-11-2023"
+            },
+            {
+                "name": "Give",
+                "image": "book-2.png",
+                "turnInDate": "26-10-2023"
+            },
+            {
+                "name": "Your Name",
+                "image": "book-3.png",
+                "turnInDate": "02-11-2023"
+            },
+            {
+                "name": "Your title goes here",
+                "image": "book-4.png",
+                "turnInDate": "06-11-2023"
+            }
+        ]
+    },
+    {
+        "firstName": "Noor",
+        "lastName": "El Amrani-de Vries",
+        "accountType": "lid",
+        "currentlyBorrowed": [
+            {
+                "name": "The Art City",
+                "image": "book-1.png",
+                "turnInDate": "01-11-2023"
+            },
+            {
+                "name": "Give",
+                "image": "book-2.png",
+                "turnInDate": "26-10-2023"
+            },
+            {
+                "name": "Your Name",
+                "image": "book-3.png",
+                "turnInDate": "02-11-2023"
+            },
+            {
+                "name": "Your title goes here",
+                "image": "book-4.png",
+                "turnInDate": "06-11-2023"
+            }
+        ]
+    }
+]

@@ -4,6 +4,7 @@ fetch("../assets/placeholder.json").then((res) => {res.json().then((members) => 
     console.log(members);
     const current_member = members[current_member_id];
     document.getElementById("family-name").innerText = current_member.lastName;
+    document.getElementById("current-user-name").innerText = current_member.firstName;
     if (current_member.picture) {
         document.querySelector("#current-user-profile img").src = current_member.picture;
         document.querySelector("#current-user-profile img").alt = current_member.firstName;
@@ -26,7 +27,7 @@ fetch("../assets/placeholder.json").then((res) => {res.json().then((members) => 
                 clone.querySelector(".member-profile-picture").alt = "default profile picture";
             }
 
-            clone.querySelector(".member-name").innerText = `${member.firstName} ${member.lastName}`
+            clone.querySelector(".member-name").innerText = member.firstName;
             clone.querySelector(".member-view").href = `./lid?lid=${i}`;
 
             members_list.appendChild(clone);

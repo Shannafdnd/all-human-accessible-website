@@ -1,13 +1,62 @@
+/* Fonts being used by the oba */
+@font-face {
+    font-family: AvenirRoman;
+    src: url(../font/Avenir-roman.ttf);
+}
+
+@font-face {
+    font-family: AvenirMedium;
+    src: url(../font/Avenir-medium.ttf);
+}
+
+@font-face {
+    font-family: AvenirBlack;
+    src: url(../font/Avenir\ -black.ttf);
+}
+
 h1 {
     width: 100%;
     text-align: center;
     margin: 50px 0;
+    
+}
+
+.member-notification-count {
+    width: 16px;
+    height: 16px;
+    border-radius: 8px;
+    position: relative;
+    top: -10px;
+    left: 10px;
+    background: red;
+    }
+
+body {
+    background-color: #e9edfe;
+}
+
+main {
+    padding: 2rem;
+    background-color: white;
+    margin: 1rem 2.5rem 2.5rem 2.5rem;
+    border-radius: 15px;
+    /* min-height: calc(100vh - 2rem); */
+}
+
+#family-name {
+    color: red;
 }
 
 #current-user-profile {
     display: flex;
-    justify-content: center;
-    margin-bottom: 100px;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 50px;
+    justify-content: space-between;
+    font-size: xx-large;
+    font-family: AvernirRoman;
+    text-decoration: none;
+    color: black;
 }
 
 #current-user-profile img {
@@ -39,4 +88,11 @@ h1 {
 .member-name {
     width: 100%;
     text-align: center;
+    font-size: larger;
+    margin: 0;
+}
+
+.member-view {
+    text-decoration: none;
+    color: black;
 }

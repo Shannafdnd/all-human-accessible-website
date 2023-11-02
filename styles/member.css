@@ -1,10 +1,38 @@
-table, tr, td, th {
+body {
+    background-color:  #e9edfe;
+}
+
+main {
+    padding: 2rem;
+    background-color: white;
+    margin: 1rem 2.5rem 2.5rem 2.5rem;
+    border-radius: 15px;
+}
+
+table, tr, th {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+.notification-logo {
+    width: 18px;
+}
+
+#quick-notifications table {
+    width: 100%;
+}
+
+#book-notifications {
+    margin-top: 50px;
+}
+
+#book-notifications td {
     border: 1px solid black;
     border-collapse: collapse;
 }
 
 td, th {
-    padding: 0 5px;
+    padding: 5px 10px;
 }
 
 .late {

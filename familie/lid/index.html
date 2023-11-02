@@ -3,7 +3,6 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" type="text/css" href="../../styles/navbar.css">
     <link rel="stylesheet" type="text/css" href="../../styles/member.css">
     <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet">
     <script src="../../scripts/member.js" defer></script>
@@ -11,34 +10,62 @@
 </head>
 <body>
     <main>
+        <header>
+            <a href="../">Terug naar overzicht</a>
+        </header>
         <h1>Profiel van <span id="name"></span></h1>
         <h2>Meldingen</h2>
-        <table>
-            <thead>
+        <div id="quick-notifications">
+            <table>
                 <tr>
-                    <th>Type melding</th>
-                    <th>Boek</th>
-                    <th>Inleverdatum</th>
-                    <th>Dagen</th>
-                    <th>Verlengen</th>
-                    <th>Boete</th>
+                    <td class="notification-logo">
+                        <img src="none" alt="euro teken">
+                    </td>
+                    <td>
+                        U heeft betaalt
+                    </td>
                 </tr>
-            </thead>
-            <tbody id="notifications">
-                <template id="notification-template">
+                <tr>
+                    <td class="notification-logo">
+                        <img src="none" alt="boek symbool">
+                    </td>
+                    <td>
+                        Bevestiging lening boek
+                    </td>
+                </tr>
+            </table>
+        </div>
+
+        <div id="book-notifications">
+            <label for="overwrite-date">TEST DATUM: </label>
+            <input id="overwrite-date" type="date">
+            <table>
+                <thead>
                     <tr>
-                        <td class="notification-type"></td>
-                        <td class="notification-book"></td>
-                        <td class="notification-date"></td>
-                        <td class="notification-days"></td>
-                        <td class="notification-extend">
-                            <button>Verlengen</button>
-                        </td>
-                        <td class="notification-fine">
+                        <th>Type melding</th>
+                        <th>Boek</th>
+                        <th>Inleverdatum</th>
+                        <th>Dagen</th>
+                        <th>Verlengen</th>
+                        <th>Boete</th>
                     </tr>
-                </template>
-            </tbody>
-        </table>
+                </thead>
+                <tbody id="book-notifications-tbody">
+                    <template id="notification-template">
+                        <tr>
+                            <td class="notification-type"></td>
+                            <td class="notification-book" tabindex="0"></td>
+                            <td class="notification-date"></td>
+                            <td class="notification-days"></td>
+                            <td class="notification-extend">
+                                <button>Verlengen</button>
+                            </td>
+                            <td class="notification-fine">
+                        </tr>
+                    </template>
+                </tbody>
+            </table>
+        </div>
         <img id="book-img" hidden>
     </main>
 </body>

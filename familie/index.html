@@ -3,26 +3,44 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+         <!-- Link to CSS -->
     <link rel="stylesheet" type="text/css" href="../styles/family.css">
+            <!-- Link to boxicons -->
     <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet">
+         <!-- Link to JavaScript script -->
     <script src="../scripts/family.js" defer></script>
     <title>OBA Login</title>
 </head>
 <body>
     <main>
-        <h1>Welkom familie <span id="family-name"></span></h1>
-        <div id="current-user-profile">
+        <header>
+            <a href="../login" >
+            <i class="bx bx-log-out icon"> </i>
+        </a>
+        </header>
+
+        <h1>Welkom, familie <span id="family-name"></span></h1>
+        <a href="../" id="current-user-profile">
             <img>
-        </div>
+            <p>U, <span id="current-user-name"></span></p>
+        </a>
         <ul id="members">
             <template id="member-template">
                 <li class="member">
                     <a class="member-view">
                         <img class="member-profile-picture">
+                        <p class="member-notification-count"></p>
                         <p class="member-name"></p>
                     </a>
                 </li>
             </template>
+            <!-- <li class="member settings">
+                <a class="member-view">
+                    <img class="member-profile-picture">
+                    <p class="member-name"></p>
+                </a>
+            </li> -->
         </ul>
     </main>
 </body>

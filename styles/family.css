@@ -97,3 +97,7 @@ main {
     text-decoration: none;
     color: black;
 }
+
+a {
+    size: 2;
+}   
